@@ -26,6 +26,9 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
  
+/**
+* 9.23 mtop 6.5.27
+*/
 public class TaoBao extends AbstractJni implements IOResolver<AndroidFileIO> {
     private final AndroidEmulator emulator;
     private final VM vm;
